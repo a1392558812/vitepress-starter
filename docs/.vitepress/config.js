@@ -1,4 +1,5 @@
-module.exports = {
+console.log('process.cwd()', process.env.NODE_ENV)
+export default {
     title: 'Awen VitePress',
     description: 'Just playing around.',
     markdown: {
@@ -53,5 +54,5 @@ module.exports = {
     },
     lang: 'zh',
     srcDir: './src',
-    base: '/' // 例如，如果你计划部署你的站点到https://foo.github.io/bar/，base选项就应该设置为'/bar/'(始终以/开始和结尾)。
+    base: process.env.NODE_ENV === 'development' ? '/' : '/vitepress-starter/' // 例如，如果你计划部署你的站点到https://foo.github.io/bar/，base选项就应该设置为'/bar/'(始终以/开始和结尾)。
 }
