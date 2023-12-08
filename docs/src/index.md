@@ -15,6 +15,8 @@ head:
  
 ## 我的fa
 
+[【部署示例: https://github.com/a1392558812/vitepress-starter】](https://github.com/a1392558812/vitepress-starter)
+
 ### 2023.12.8 15.55
 
 <img :src="withBase('static/images/test1.jpg')" />
