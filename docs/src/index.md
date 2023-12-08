@@ -78,7 +78,7 @@ export default {
 ## test
 
 ```js-vue
-Hello {{ 1 + 1 }}
+Hello {{ 1 + 1 }} emmmm
 ```
 
 ## test
